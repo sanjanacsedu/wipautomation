@@ -31,9 +31,22 @@ public class CoreJavaExercise {
 		y = temp;
 		System.out.println("After swap the value of x and y "+x +" "+y);	
 		//System.out.println(x +""+y);
-		String[] array = { "1", "2", "3" };
-		String merged = String.join(",", array);
-        System.out.println("merger with comma: "+" "+merged);
+		//String[] array = { "1", "2", "3" };
+		//String merged = String.join(",", array);
+        //System.out.println("merger with comma: "+" "+merged);
+        
+        
+        int[] num_array = {1,2,3,4,5};
+        
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i< num_array.length; i++)
+        { sb.append(num_array[i]);
+          if(i < num_array.length-1 )
+        	  sb.append(',');
+         }
+        
+        System.out.println(sb);
+        
         
         
         int totalDays = 450;
