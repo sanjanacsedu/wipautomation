@@ -38,7 +38,7 @@ public class CoreJavaExercise {
         
         int[] num_array = {1,2,3,4,5};
         
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         for(int i = 0; i< num_array.length; i++)
         { sb.append(num_array[i]);
           if(i < num_array.length-1 )
