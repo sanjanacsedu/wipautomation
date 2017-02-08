@@ -36,13 +36,15 @@ public class CoreJavaExercise {
         //System.out.println("merger with comma: "+" "+merged);
         
         
-        int[] num_array = {1,2,3,4,5};
+        //int[] num_array = {1,2,3,4,5};
         
         StringBuffer sb = new StringBuffer();
-        for(int i = 0; i< num_array.length; i++)
-        { sb.append(num_array[i]);
-          if(i < num_array.length-1 )
+        for(int i = 1; i<= 100; i++)
+        { sb.append(i);
+          if(i < 100 )
         	  sb.append(',');
+          else
+        	  sb.append(';');
          }
         
         System.out.println(sb);
