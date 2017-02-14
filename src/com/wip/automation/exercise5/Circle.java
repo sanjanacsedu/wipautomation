@@ -7,10 +7,7 @@ package com.wip.automation.exercise5;
 public class Circle {
   public int radius;
 
-  public Circle() {
-    // TODO Auto-generated constructor stub
-
-  }
+ 
 
   public Circle(int rad) {
     // TODO Auto-generated constructor stub

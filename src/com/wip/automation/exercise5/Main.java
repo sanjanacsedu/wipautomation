@@ -10,18 +10,14 @@ public class Main {
      * integers Modulus method - input two integers Substract Multiply Division Square - input
      * single integer.
      */
-
-    // TODO Auto-generated method stub
     Calculator cal = new Calculator();
-    Calculator cal2 = new Calculator(3, 2);
-    Calculator cal3 = new Calculator(3);
     cal.addition(2, 3);
     cal.modulus(3, 2);
-    int subtract = cal2.subtraction();
+    int subtract = cal.subtraction(5,3);
     System.out.println("Subtraction is: " + subtract);
-    cal2.multiplication();
-    cal2.division();
-    cal3.square();
+    cal.multiplication(2,3);
+    cal.division(5,3);
+    cal.square(5);
 
     Circle cir = new Circle(3);
     cir.area();
