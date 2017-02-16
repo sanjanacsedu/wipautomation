@@ -6,12 +6,15 @@ package com.wip.automation.exercise5;
 
 public class Circle {
   public int radius;
+  public static int count = 0;
 
- 
+
 
   public Circle(int rad) {
     // TODO Auto-generated constructor stub
     radius = rad;
+    count++;
+
   }
 
 

@@ -11,19 +11,26 @@ public class Main {
      * single integer.
      */
     Calculator cal = new Calculator();
-    cal.addition(2, 3);
-    cal.modulus(3, 2);
-    int subtract = cal.subtraction(5,3);
+    int addition = cal.addition(2, 3);
+    System.out.println("Addition is: " + addition);
+    int mod = cal.modulus(3, 2);
+    System.out.println("Modulus is: " + mod);
+    int subtract = cal.subtraction(5, 3);
     System.out.println("Subtraction is: " + subtract);
-    cal.multiplication(2,3);
-    cal.division(5,3);
-    cal.square(5);
+    int mult = cal.multiplication(2, 3);
+    System.out.println("Multiplication is: " + mult);
+    int div = cal.division(5, 3);
+    System.out.println("Division is: " + div);
+    int sq = cal.square(5);
+    System.out.println("Square is: " + sq);
 
     Circle cir = new Circle(3);
     cir.area();
     cir.perimeter();
     int radius = cir.getRadius();
     System.out.println("Radius of the circle is: " + radius);
+    System.out.println("Main method count is: " + Circle.count);
+
 
   }
 
