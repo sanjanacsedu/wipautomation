@@ -10,7 +10,6 @@ public class CountrySort {
     String[] countries = new String[] {"Bangladesh", "USA", "India", "Pakistan"};
     // sort String array using sort method
     Arrays.sort(countries);
-
     System.out.println("Sorted country names: ");
 
     // print sorted country

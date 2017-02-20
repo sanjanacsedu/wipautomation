@@ -44,7 +44,7 @@ public class Movie {
   public void printDetail() {
     System.out.println("Title of the movie is: " + getTitle());
     System.out.println("Genre of the movie is: " + getGenre());
-    System.out.println("Length of the movie is: " + getMovieLength()+"  minutes");
+    System.out.println("Length of the movie is: " + getMovieLength() + "  minutes");
     System.out.println("Releasedate of the movie is: " + getReleaseDate());
 
   }
