@@ -1,8 +1,8 @@
 package com.wip.automation.excercise7;
 
 public class SubtractOperator implements Operator {
-  public int execute(int a, int b) {
-    return a - b;
+  public int execute(int num1, int num2) {
+    return num1 - num2;
   }
 
   @Override
